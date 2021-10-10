@@ -1,0 +1,13 @@
+Book  sách
+smartphone  điện thoại
+ship  thuyền
+window   cửa số
+tea   trà
+cup   tách
+light   anh sangs
+back  quay lại
+bitch   con phò
+bed   cái giường
+beat  đánh đề
+
+booker  book

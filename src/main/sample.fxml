@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="775.0" style="-fx-background-color: lightGray;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.ControllerSearch">
+  <children>
+    <TextField fx:id="Height" layoutX="138.0" layoutY="83.0" onKeyReleased="#inputText" prefHeight="35.0" prefWidth="250.0" promptText="word" />
+    <ListView fx:id="listView" layoutX="1.0" layoutY="134.0" onMouseClicked="#HandleMouseListWord" prefHeight="317.0" prefWidth="250.0" />
+      <TextArea fx:id="textArea" layoutX="250.0" layoutY="134.0" prefHeight="317.0" prefWidth="332.0" />
+      <Label alignment="CENTER" layoutX="98.0" layoutY="4.0" prefHeight="70.0" prefWidth="462.0" text="Từ điển Anh - Việt " textFill="#3a7b85">
+         <font>
+            <Font size="47.0" />
+         </font></Label>
+      <Button layoutX="400.0" layoutY="76.0" mnemonicParsing="false" onAction="#HandleButtonSpeech" prefHeight="46.0" prefWidth="57.0">
+         <graphic>
+            <ImageView fitHeight="39.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@graphic/icons8_Speaker_48px.png" />
+               </image></ImageView>
+         </graphic></Button>
+      <Button layoutX="603.0" layoutY="152.0" mnemonicParsing="false" onAction="#gotoAddWord" prefHeight="60.0" prefWidth="125.0">
+         <graphic>
+            <ImageView fitHeight="52.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@graphic/add_image.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button layoutX="604.0" layoutY="239.0" mnemonicParsing="false" onAction="#gotoEditWord" prefHeight="52.0" prefWidth="119.0">
+         <graphic>
+            <ImageView fitHeight="53.0" fitWidth="82.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@graphic/edit_button.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+  </children>
+</AnchorPane>

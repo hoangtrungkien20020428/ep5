@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="439.0" prefWidth="546.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.EditWord">
+   <children>
+      <TextField fx:id="OldWord" layoutY="57.0" prefHeight="32.0" prefWidth="206.0" promptText="old word" style="-fx-background-color: #fdf5e6;" />
+      <TextField fx:id="NewWord" layoutX="238.0" layoutY="57.0" prefHeight="31.0" prefWidth="206.0" promptText="new word" style="-fx-background-color: #fdf5e6;" />
+      <TextArea fx:id="textArea" layoutX="68.0" layoutY="96.0" prefHeight="238.0" prefWidth="255.0" promptText="nghĩa mới" style="-fx-background-color: #f5fffa;" />
+      <Button layoutX="328.0" layoutY="151.0" mnemonicParsing="false" onAction="#edit" prefHeight="49.0" prefWidth="66.0" text="Edit" textFill="#2c78ae">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="407.0" layoutY="150.0" mnemonicParsing="false" onAction="#backToDictionary" prefHeight="53.0" prefWidth="94.0" text="GoBack" textFill="#3195a4" />
+   </children>
+</AnchorPane>
